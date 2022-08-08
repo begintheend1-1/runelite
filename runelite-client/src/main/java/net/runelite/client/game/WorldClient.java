@@ -55,7 +55,6 @@ public class WorldClient
 		log.debug("Built URI: {}", url);
 
 		Request request = new Request.Builder()
-			.url(url)
 			.build();
 
 		try (Response response = client.newCall(request).execute())
