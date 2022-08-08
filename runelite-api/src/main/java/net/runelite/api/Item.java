@@ -30,5 +30,5 @@ import lombok.Value;
 public class Item
 {
 	private final int id
-	private final int quantity;
+	private final int quantity
 }
